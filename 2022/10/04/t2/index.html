@@ -23,12 +23,12 @@
 <meta property="og:site_name" content="zzq&#39;s blog!">
 <meta property="og:description" content="如何在博客中添加图片在hexo中发表文章时发现图片无法显示，这是因为hexo在解析文章时找不到图片路径，因此需要配置文章中的图片路径 1、打开在博客根目录下的 _config.yml 配置文件，找到 post_asset_folder 属性， false 改为 true 2、在hexo根目录下执行如下命令 1npm install hexo-asset-image  3、创建新的文章，在 sour">
 <meta property="og:locale" content="zh_CN">
-<meta property="og:image" content="http://example.com/.com//Blog/source_posts/t2/ss.jpg">
+<meta property="og:image" content="http://example.com/.com//.%5Ct2%5Css.jpg">
 <meta property="article:published_time" content="2022-10-04T13:22:58.000Z">
-<meta property="article:modified_time" content="2022-10-04T13:40:14.484Z">
+<meta property="article:modified_time" content="2022-10-04T13:43:21.316Z">
 <meta property="article:author" content="zzq">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:image" content="http://example.com/.com//Blog/source_posts/t2/ss.jpg">
+<meta name="twitter:image" content="http://example.com/.com//.%5Ct2%5Css.jpg">
   
   
   
@@ -292,7 +292,7 @@
                 
                 <h2 id="如何在博客中添加图片"><a href="#如何在博客中添加图片" class="headerlink" title="如何在博客中添加图片"></a>如何在博客中添加图片</h2><p>在hexo中发表文章时发现图片无法显示，这是因为hexo在解析文章时找不到图片路径，因此需要配置文章中的图片路径</p>
 <p>1、打开在博客根目录下的 _config.yml 配置文件，找到 post_asset_folder 属性， false 改为 true</p>
-<p><img src="/.com//Blog\source_posts\t2\ss.jpg" srcset="/img/loading.gif" lazyload alt="ss">2、在hexo根目录下执行如下命令</p>
+<p><img src="/.com//.%5Ct2%5Css.jpg" srcset="/img/loading.gif" lazyload alt="ss">2、在hexo根目录下执行如下命令</p>
 <figure class="highlight arduino"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><code class="hljs arduino">npm install hexo-asset-image<br></code></pre></td></tr></table></figure>
 
 <p>3、创建新的文章，在 <code>source/_posts</code> 中会生成文章 <code>name.md</code> 和同名文件夹 <code>name</code>,将图片资源均放在 name 文件夹中，就可以在文章中使用相对路径引用图片资源了</p>
