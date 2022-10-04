@@ -8,7 +8,7 @@
     <link href="/2022/07/07/hello-world-1/"/>
     <url>/2022/07/07/hello-world-1/</url>
     
-    <content type="html"><![CDATA[<h2 id="This-is-the-beginning"><a href="#This-is-the-beginning" class="headerlink" title="This is the beginning!!!"></a>This is the beginning!!!</h2>]]></content>
+    <content type="html"><![CDATA[<h2 id="This-is-the-beginning"><a href="#This-is-the-beginning" class="headerlink" title="This is the beginning!!!"></a>This is the beginning!!!</h2><p>$$<br>\begin{Bmatrix}<br>1&amp;2&amp;3 \<br>4&amp;5&amp;6<br>\end{Bmatrix} \<br>\sum_{i&#x3D;1}^n a_i&#x3D;1<br>$$</p>]]></content>
     
     
     
